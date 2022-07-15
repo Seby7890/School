@@ -15,6 +15,6 @@ public class Student extends Person {
     }
 
     public void introduce() {
-        System.out.println("My name is " + this.getFirstName() + " " + this.getLastName() + " and I am a student in " + this.getGroupClass() + ".");
+        System.out.println("My name is " + this.getFirstName() + " " + this.getLastName() + " and I am a student in " + this.getGroupClass() + " class.");
     }
 }
