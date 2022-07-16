@@ -26,6 +26,6 @@ public class Teacher extends Person {
 
     @Override
     public void introduce() {
-        System.out.println("My name is " + this.getFirstName() + " " + this.getLastName() + ". I teach " + this.getSubject() + " and I am a " + this.getDepartment() + ".");
+        System.out.println("My name is " + this.getFirstName() + " " + this.getLastName() + ". I teach " + this.subject + " and I am a " + this.department + ".");
     }
 }
